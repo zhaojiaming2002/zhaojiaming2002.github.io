@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+}
+body {
+    font-family: "Microsoft YaHei";
+    color: white;
+    font-weight: 300;
+}
+
+body ::-webkit-input-placeholder {
+    font-family:"Microsoft YaHei";
+    color: white;
+    font-weight: 300;
+}

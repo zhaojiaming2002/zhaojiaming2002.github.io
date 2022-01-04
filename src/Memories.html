@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday</title>
+    <link rel="stylesheet" type="text/css" href="/css/memories.css">
+    <link rel="stylesheet" type="text/css" href="/css/fullpage.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+</head>
+
+<body>
+    <!-- 第一屏 -->
+
+    <div id="fullpage">
+        <div class="section">
+            <div class="ly-box01">
+                <div class="ly-txt1">
+                    <p class="ly-t1">你终于来了</p>
+                    <p class="ly-t2">我们认识时间不长</p>
+                    <p class="ly-t3">只有短短1200天</p>
+                </div>
+
+
+                <div class="ly-txt2">
+                    <p class="ly-t4">李瑞华</p>
+                    <p class="ly-t5">今天猪猪祝你:</p>
+                    <p class="ly-t6">生日快乐!</p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="ly-box02">
+                <img src="/img/2lrh04.png" />
+            </div>
+            <div class="ly-box03">
+                <p class="ly-t7">想一直牵着你手的，陪着你一直往前走。</p>
+            </div>
+            <div class="ly-box04">
+                <p>下滑关于我们的相册</p>
+            </div>
+        </div>
+        <div class="section">
+            <div class="ly-p1">
+                <img src="/img/lrhlove.jpg" />
+                <img src="/img/lrh03.jpg" />
+                <img src="/img/lrh07.png" />
+
+            </div>
+
+            <div class="ly-p2">
+                <img src="/img/lrh02.png" />
+                <img src="/img/lrh04.png" />
+                <img src="/img/lrh05.png" />
+                <img src="/img/lrh06.png" />
+            </div>
+        </div>
+        
+        <div class="section">
+            <div class="ly-p1">
+                <img src="/img/2lrh01.png" />
+                <img src="/img/2lrh04.png" />
+                <img src="/img/2lrh03.jpg" />
+            </div>
+
+            <div class="ly-p2">
+                <img src="/img/2lrh02.png" />
+                <img src="/img/2lrh05.jpg" />
+                <img src="/img/2lrh06.jpg" />
+                <img src="/img/2lrh07.png" />
+            </div>
+        </div>
+        <div class="section">
+            <div class="f-lybox1">
+                <p>虽然</p>
+                <p>有时惹你生气</p>
+                <p>有时对你很敷衍,态度不好</p>
+                <p>有时说话没有好好想</p>
+            </div>
+            <div class="f-lybox2">
+                <p>我也</p>
+                <p>在改变着自己</p>
+                <p>想不让你生气</p>
+                <p>想变得优秀让你</p>
+                <p>今天你生日，我想送一个特别的生日礼物，就是拿自己所学的给你做一个网站。</p>
+                <p>生日快乐!</p>
+                <p>我亲爱的李瑞华女士</p>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div id="container">
+        <ul class="bg-bubbles">
+            <li> <img src="../img/fly1.jpg" style="width: 100%; height: 100%;" /> </li>
+            <li> <img src="../img/fly2.jpg" style="width: 100%; height: 100%;" /> </li>
+            <li> <img src="../img/fly4.jpg" style="width: 100%; height: 100%;" /> </li>
+            <li> <img src="../img/7.jpg" style="width: 100%; height: 100%;" /> </li>
+            <li> <img src="../img/fly5.jpg" style="width: 100%; height: 100%;" /> </li>
+        </ul>
+
+    </div>
+    <script src="/js/jquery-2.1.1.min.js"></script>
+    <script src="/js/fullpage.js"></script>
+
+    <script>
+        // $(function(){
+        //     $('#fullpage').fullpage({
+        //         controlArrows: false,
+        //         slidesNavigation: true
+        //     });
+        // });
+
+        $(document).ready(function () {
+            $('#fullpage').fullpage({
+                //options here
+                autoScrolling: true,
+                scrollHorizontally: true,
+                navigation: true,
+                navigationPosition: 'right',
+            });
+
+            //methods
+            // $.fn.fullpage.setAllowScrolling(false);
+        });
+    </script>
+
+
+</body>
+
+</html>
